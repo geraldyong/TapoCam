@@ -1,0 +1,5 @@
+pydantic
+pytapo
+fastapi
+uvicorn
+python-multipart

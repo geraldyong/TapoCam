@@ -1,0 +1,14 @@
+services:
+  camera_backend:
+    build: ./camera_backend
+    image: camera_backend:latest
+    container_name: camera_backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - video_data:/app/video_chunks
+
+volumes:
+  video_data:
