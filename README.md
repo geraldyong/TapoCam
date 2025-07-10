@@ -28,6 +28,6 @@ Require docker or Kubernetes.
    `./conn_tapo.py`
 
 ### Run Microservice
-1. Update the [config/cameras.json] file. For the password, use convert it to base64.
+1. Update the [config/cameras.json](camera_backend/config/cameras.json) file. For the password, use convert it to base64.
 2. Start up the FastAPI service.
    `./rebuild.sh`
